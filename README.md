@@ -7,10 +7,10 @@ Please Note: Seating for sessions in the DevNet Zone is available on a first com
 
 - If you just want to read this Lab - go to the [DEVNET-2449 Lab Guide](https://github.com/bluraniec/devnet-2449/blob/master/DEVNET-2449.ipynb) and follow the executed notebook.
 
-- If you want to do it in your own environment, make sure that you did following steps:
-  1. Run IOS-XE device (this Lab has been done on CSR device with running IOS 16.7.1).
+- If you want to do it in your own environment, make sure that you have done following steps:
+  1. Run IOS-XE device (this Lab has been done on CSR running IOS 16.7.1). Please be advised that RESTCONF is oficially supported since version 16.6.1.
   2. Setup IP connectivity between the IOS-XE device and your local computer.
-  3. Enable NETCONF on this device (`#netconf-yang` command) and RESTCONF (`#restconf` command).
+  3. Enable NETCONF (`#netconf-yang` command) and RESTCONF (`#restconf` command) on this device.
   4. Download the repository.
   5. Download following Python modules (for example using `pip` command):
       - netmiko
@@ -18,4 +18,7 @@ Please Note: Seating for sessions in the DevNet Zone is available on a first com
       - requests
       - pprint
       - pandas
-  6. Go to the Jupyter Notebook of this session (`DEVNET-2449.ipynb`) and play with the lab!
+  6. Download Jupyter Notebook to be able to open the .ipynb file locally - [Download](https://jupyter.org/install)
+  7. Run Jupyter Notebook in Terminal using command: `jupyter notebook`
+  8. Upload all files from respository to opened Jupyter Notebook (remember to keep the folder structure).
+  9. From locally running Jupyter Notebook - click on (`DEVNET-2449.ipynb`) and play with the lab!
