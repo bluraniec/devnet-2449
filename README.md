@@ -1,4 +1,4 @@
-# devnet2449
+# devnet-2449
     This is a Git repository for the Cisco Live DevNet 2449 - Python for Enterprise Network Elements
 
 About the session: 
