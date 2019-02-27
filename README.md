@@ -5,7 +5,7 @@ About the session:
 
 Please Note: Seating for sessions in the DevNet Zone is available on a first come first seated basis. This session is designed to be small and hands-on. Laptops will be provided. Join us to get an overview of the Network Automation for Enterprise - one of the recent hottest topics. We will see NETCONF, YANG Data modeling and RESTCONF in action interacting with IOS-XE using Python scripting language. Attendees will learn how to gather network information and change configuration on devices in an automated way using netmiko, ncclient and requests libraries. Come and get your hands dirty! Takes place in DevNet Zone. 
 
-- If you just want to read this executed Lab - go to the [DEVNET-2449 Executed Instruction](https://github.com/bluraniec/devnet-2449/blob/master/DEVNET-2449.ipynb) and follow the notebook.
+- If you just want to read this executed Lab - go to the [DEVNET-2449 Executed Instruction](https://nbviewer.jupyter.org/github/bluraniec/devnet-2449/blob/master/DEVNET-2449.ipynb) and follow the notebook.
 
 - If you want to do it in your own environment, make sure that you have done following steps:
   1. Run IOS-XE device (this Lab has been done on CSR running IOS 16.7.1). Please be advised that RESTCONF is oficially supported since version 16.6.1.
